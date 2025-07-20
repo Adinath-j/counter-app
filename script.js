@@ -23,3 +23,4 @@ reset.addEventListener('click',()=>{
 })
 }
 buttons()
+
