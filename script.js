@@ -13,8 +13,10 @@ increment.addEventListener('click', () => {
 
 const decrement = document.getElementById('decrement')
 decrement.addEventListener('click',()=>{
-    calc--;
+    if (calc > 0) {
+        calc--;
     display.textContent = calc
+    }
 })
 const reset = document.getElementById('reset')
 reset.addEventListener('click',()=>{
