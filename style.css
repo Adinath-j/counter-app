@@ -35,7 +35,7 @@ body {
 #counter {
     background-color: black;
     width: 100%;
-    height: 100%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,25 +54,45 @@ body {
 .change {
     padding: 30px;
     background-color: black;
-    border: none;
+    border: solid;
     color: rgb(255, 255, 255);
     font-size: 80px;
     font-weight: bolder;
-    border-radius: 50%;
+    border-radius: 45%;
+    height: 200px;
+    width: 200px;
+}
+.change:hover{
+    cursor: pointer;
+    font-size: 90px;
+    border: solid;
 }
 .reset-wrapper{
     width: 100%;
+    height: 30%;
     justify-content: center;
     background-color: black;
     align-items: center;
+    justify-content: space-around;
     display: flex;
 }
 #reset{
-    padding: 30px;
+       padding: 30px;
     background-color: black;
-    border: none;
     color: rgb(255, 255, 255);
-    font-size: 80px;
+    font-size: 32px;
+    border-radius: 20px;
     font-weight: bolder;
-    border-radius: 50%;
+    border: solid white;
+}
+#limit{
+        padding: 31px;
+    background-color: black;
+        border: solid white;
+        font-size: 29px;
+        color: #fff;
+    border-radius: 20px;
+}
+input::placeholder {
+  color: rgb(255, 255, 255);  /* You can use any color like #888, red, etc. */
 }
