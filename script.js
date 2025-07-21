@@ -26,8 +26,6 @@ function btnAnimation(){
 
 
 function buttons (){
-
-
 increment.addEventListener('click', () => {
 if (calc < max) {
             calc++
