@@ -45,14 +45,15 @@ body {
 
 .comps {
     height: 50%;
-        width: 100%;
+    width: 100%;
     margin-top: 70px;
     display: flex;
     align-items: center;
     font-size: 10vw;
-        font-weight: 600;
+    font-weight: 600;
     justify-content: space-between;
 }
+
 .change {
     padding: 10px;
     background-color: black;
@@ -67,12 +68,17 @@ body {
     justify-content: center;
     align-items: center;
 }
-/* .change:hover{
+
+.bttn:hover{
+    cursor: pointer;
+}
+.change:hover {
     cursor: pointer;
     font-size: 90px;
     border: solid;
-} */
-.reset-wrapper{
+}
+
+.reset-wrapper {
     width: 100%;
     height: 30%;
     justify-content: center;
@@ -81,8 +87,9 @@ body {
     justify-content: space-around;
     display: flex;
 }
-#reset{
-       padding: 30px;
+#setLimit{
+    padding: 17px;
+
     background-color: black;
     color: rgb(255, 255, 255);
     font-size: 32px;
@@ -90,14 +97,33 @@ body {
     font-weight: bolder;
     border: solid white;
 }
-#limit{
-        padding: 31px;
+#reset {
+    padding: 16px;
     background-color: black;
-        border: solid white;
-        font-size: 29px;
-        color: #fff;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    border-radius: 20px;
+    font-weight: bolder;
+    border: solid white;
+}
+
+#limit {
+        padding: 15px;
+    background-color: black;
+    border: solid white;
+    font-size: 29px;
+    color: #fff;
+    border-radius: 20px;
+}
+#limitDisplay{
+    padding: 17px;
+    background-color: black;
+    border: solid white;
+    font-size: 29px;
+    color: #fff;
     border-radius: 20px;
 }
 input::placeholder {
-  color: rgb(255, 255, 255);  /* You can use any color like #888, red, etc. */
+    color: rgb(255, 255, 255);
+    /* You can use any color like #888, red, etc. */
 }
